@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Header() {
+function Header({totalIncome}) {
   return (
-    <header>
-      <h1>Income Tracker</h1>
+    <header >
+      <h1 className="title">Income Tracker</h1>
 
-      <div className="total-income">Ru.400
+      <div className="total-income">Ru. {totalIncome}
 
       </div>
       
